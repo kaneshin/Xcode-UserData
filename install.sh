@@ -9,12 +9,19 @@ cd `dirname $0`
 SRCROOT=`pwd`
 SRCDEST=~/Library/Developer/Xcode/UserData
 
-SNIPROOT=$SRCROOT/CodeSnippets
-SNIPDEST=$SRCDEST/CodeSnippets
 
-echo $SNIPROOT
-echo $SNIPDEST
+TARGETS=('CodeSnippets' 'FontAndColorThemes')
 
-ln -sf $SNIPROOT $SNIPDEST
+LEN=`expr ${#TARGETS[@]} - 1`
+for i in `seq 0 $LEN`
+do
+    TARGET=${TARGETS[$i]}
+    echo $SRCROOT/$TARGET
+    echo " --> "$SRCDEST/$TARGET
+    ln -sf $SRCROOT/$TARGET $SRCDEST/$TARGET
+    echo ""
+done
+
+echo "Done!!"
 
 # vim:set fdm=marker:

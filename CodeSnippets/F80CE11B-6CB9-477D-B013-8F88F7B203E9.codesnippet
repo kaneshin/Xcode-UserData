@@ -20,6 +20,8 @@
 	<string>F80CE11B-6CB9-477D-B013-8F88F7B203E9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Singleton</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Swift: Singleton</string>
 	<key>IDECodeSnippetUserSnippet</key>
