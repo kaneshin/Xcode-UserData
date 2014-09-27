@@ -1,0 +1,29 @@
+# Xcode-UserData
+
+- CodeSnippets
+
+
+## Installation
+
+```
+./install.sh
+```
+
+
+## Description
+
+Creating symbolic link.
+
+
+## Support
+
+- Swift
+- Objective-C
+
+
+---
+
+## Author
+
+- [Shintaro Kaneko](https://github.com/kaneshin) <kaneshin0120@gmail.com>
+
